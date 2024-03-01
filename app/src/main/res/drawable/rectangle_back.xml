@@ -1,0 +1,9 @@
+<!-- Your transparent shape drawable -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#BFfdfdfd"/> <!-- 80 sets the alpha channel to 50% transparency -->
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+</selector>

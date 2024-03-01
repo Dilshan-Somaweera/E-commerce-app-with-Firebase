@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="355dp"
+        android:layout_height="599dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/rectangle_back">
+
+        <Button
+            android:id="@+id/productremovebtn"
+            android:layout_width="300dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="157dp"
+            android:layout_marginEnd="118dp"
+            android:background="@drawable/button_back"
+            android:text="Remove Flowers"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerremoveproductbtn" />
+
+        <Spinner
+            android:id="@+id/spinnerremoveproductbtn"
+            android:layout_width="292dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="68dp"
+            android:background="@drawable/spinnerback_middle"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/productupdatebtn"
+            android:layout_width="300dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="109dp"
+            android:background="@drawable/button_back"
+            android:text="Update Flowers"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productremovebtn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
